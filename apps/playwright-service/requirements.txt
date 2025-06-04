@@ -2,3 +2,4 @@ hypercorn==0.17.3
 fastapi==0.111.0
 playwright==1.44.0
 uvicorn
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
